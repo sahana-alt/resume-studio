@@ -16,7 +16,7 @@ On macOS, you can also double-click `Start Resume Studio.command`. Keep its Term
 
 The app accepts a job URL or pasted JD, an optional PDF/DOCX/TXT resume, and additional instructions. One generation creates the tailored resume, cover letter, recruiter DM, application brief, interview prep, and skill-gap plan. URL extraction automatically falls back to pasted JD text when a career site blocks scraping.
 
-The cover-letter area has separate company, role, and instruction fields. It generates a three-paragraph human-readable draft plus `cover_letter.tex`, a standalone LaTeX letter that can be pasted into Overleaf.
+The cover-letter area has separate company, role, and instruction fields. It generates a downloadable plain-text letter plus `cover_letter.tex`, a standalone LaTeX letter that can be pasted into Overleaf.
 
 ## Free Hosting
 

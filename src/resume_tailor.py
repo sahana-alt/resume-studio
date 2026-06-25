@@ -912,8 +912,6 @@ def render_cover(
     )
 
     lines = [
-        "# Short Cover Letter",
-        "",
         "Dear Hiring Team,",
         "",
         first_paragraph,
@@ -1213,15 +1211,24 @@ def export_resume_documents(out_dir: Path) -> list[Path]:
             return []
         return [path for path in [docx_path, tex_path, pdf_path] if path.exists()]
 
+    lines = applicant_resume_lines(markdown_path.read_text(encoding="utf-8"))
+    if pdf_path.exists():
+        pdf_path.unlink()
+
+    # LaTeX is the canonical source artifact and must not depend on DOCX/PDF success.
     try:
-        lines = applicant_resume_lines(markdown_path.read_text(encoding="utf-8"))
-        if pdf_path.exists():
-            pdf_path.unlink()
-        build_docx(lines, docx_path)
         build_latex(lines, tex_path)
-        compile_latex(tex_path, pdf_path)
     except Exception:
-        return []
+        pass
+    try:
+        build_docx(lines, docx_path)
+    except Exception:
+        pass
+    try:
+        if tex_path.exists():
+            compile_latex(tex_path, pdf_path)
+    except Exception:
+        pass
     return [path for path in [docx_path, tex_path, pdf_path] if path.exists()]
 
 
@@ -1234,7 +1241,9 @@ def archive_role_package(out_dir: Path, role_type: str, slug: str) -> Path:
         "tailored_resume.docx",
         "tailored_resume.pdf",
         "cover_letter.md",
+        "cover_letter.txt",
         "cover_letter.tex",
+        "cover_letter.docx",
         "recruiter_dm.md",
         "application_brief.md",
         "skill_gap_project_plan.md",
@@ -1311,10 +1320,42 @@ def generate_application_package(
         role_name,
     )
     (out_dir / "cover_letter.md").write_text(cover_letter, encoding="utf-8")
+    (out_dir / "cover_letter.txt").write_text(cover_letter, encoding="utf-8")
     (out_dir / "cover_letter.tex").write_text(
         render_cover_latex(cover_letter, profile),
         encoding="utf-8",
     )
+    try:
+        from export_resume import build_cover_letter_docx
+        build_cover_letter_docx(
+            cover_letter,
+            {
+                "name": str(profile.get("name", "")),
+                "email": str(profile.get("email", "")),
+                "phone": str(profile.get("phone", "")),
+            },
+            out_dir / "cover_letter.docx",
+        )
+    except Exception:
+        if BUNDLED_PYTHON.exists():
+            try:
+                subprocess.run(
+                    [
+                        str(BUNDLED_PYTHON),
+                        str(Path(__file__).with_name("export_cover_letter.py")),
+                        str(out_dir / "cover_letter.md"),
+                        str(out_dir / "cover_letter.docx"),
+                        str(profile.get("name", "")),
+                        str(profile.get("email", "")),
+                        str(profile.get("phone", "")),
+                    ],
+                    check=True,
+                    capture_output=True,
+                    text=True,
+                    timeout=30,
+                )
+            except (OSError, subprocess.SubprocessError):
+                pass
     (out_dir / "recruiter_dm.md").write_text(render_dm(profile, jd, bullets), encoding="utf-8")
     (out_dir / "interview_prep.md").write_text(render_interview_notes(jd, bullets), encoding="utf-8")
     exported = export_resume_documents(out_dir)

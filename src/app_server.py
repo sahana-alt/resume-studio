@@ -177,7 +177,8 @@ class AppHandler(SimpleHTTPRequestHandler):
             out_dir: Path = result["out_dir"]
             artifact_names = [
                 "tailored_resume.docx", "tailored_resume.tex", "tailored_resume.pdf",
-                "tailored_resume.md", "cover_letter.md", "cover_letter.tex", "recruiter_dm.md",
+                "tailored_resume.md", "cover_letter.txt", "cover_letter.tex",
+                "recruiter_dm.md",
                 "application_brief.md", "interview_prep.md", "skill_gap_project_plan.md",
             ]
             artifacts = [

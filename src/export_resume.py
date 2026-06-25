@@ -454,6 +454,65 @@ def build_docx(lines: list[str], out_path: Path) -> None:
     doc.save(out_path)
 
 
+def build_cover_letter_docx(markdown: str, profile: dict[str, str], out_path: Path) -> None:
+    """Build a restrained one-page business letter from generated cover text."""
+    doc = Document()
+    section = doc.sections[0]
+    section.top_margin = Inches(0.85)
+    section.bottom_margin = Inches(0.85)
+    section.left_margin = Inches(1.0)
+    section.right_margin = Inches(1.0)
+
+    normal = doc.styles["Normal"]
+    normal.font.name = "Arial"
+    normal.font.size = Pt(11)
+    normal.paragraph_format.space_before = Pt(0)
+    normal.paragraph_format.space_after = Pt(8)
+    normal.paragraph_format.line_spacing = 1.15
+
+    name = str(profile.get("name", "Your Name"))
+    contact = " | ".join(
+        value for value in [
+            str(profile.get("email", "")).strip(),
+            str(profile.get("phone", "")).strip(),
+        ] if value
+    )
+
+    header = doc.add_paragraph()
+    header.paragraph_format.space_after = Pt(2)
+    name_run = header.add_run(name)
+    name_run.bold = True
+    name_run.font.name = "Arial"
+    name_run.font.size = Pt(15)
+
+    if contact:
+        contact_paragraph = doc.add_paragraph()
+        contact_paragraph.paragraph_format.space_after = Pt(18)
+        contact_run = contact_paragraph.add_run(contact)
+        contact_run.font.name = "Arial"
+        contact_run.font.size = Pt(10)
+        contact_run.font.color.rgb = RGBColor(75, 75, 75)
+
+    content = [
+        line.strip()
+        for line in markdown.splitlines()
+        if line.strip() and not line.startswith("# ")
+    ]
+    for index, line in enumerate(content):
+        paragraph = doc.add_paragraph()
+        paragraph.paragraph_format.space_after = Pt(10)
+        if index == 0:
+            paragraph.paragraph_format.space_after = Pt(14)
+        run = paragraph.add_run(line)
+        run.font.name = "Arial"
+        run.font.size = Pt(11)
+
+    doc.core_properties.title = "Cover Letter"
+    doc.core_properties.subject = "Job application cover letter"
+    doc.core_properties.author = name
+    doc.save(out_path)
+
+
 def add_bottom_border(paragraph) -> None:
     p = paragraph._p
     p_pr = p.get_or_add_pPr()
