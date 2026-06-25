@@ -1,0 +1,6 @@
+Senior Software Engineer
+
+We are looking for a senior software engineer to build customer-facing SaaS workflows. The role requires Python, TypeScript, React, SQL, API design, testing, and strong collaboration with product and design. Preferred experience includes AWS, observability, B2B products, and ownership of end-to-end delivery.
+
+Responsibilities include designing APIs, improving performance, writing automated tests, mentoring engineers, and translating ambiguous requirements into reliable product features.
+

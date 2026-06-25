@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Resume Studio</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark">RS</span>
+      <div>
+        <strong>Resume Studio</strong>
+        <span>Application workspace</span>
+      </div>
+    </div>
+    <div class="status"><span></span> Local and private</div>
+  </header>
+
+  <main>
+    <section class="workspace">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">New application</p>
+          <h1>Build the application package</h1>
+        </div>
+        <p class="helper">One job description in. Resume, cover letter, recruiter note, and prep out.</p>
+      </div>
+
+      <form id="generator-form">
+        <div class="form-grid">
+          <div class="field span-2">
+            <label for="job-url">Job posting URL</label>
+            <div class="input-with-icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>
+              <input id="job-url" type="url" placeholder="https://company.com/jobs/role">
+            </div>
+          </div>
+
+          <div class="field span-2">
+            <div class="label-row">
+              <label for="jd-text">Job description</label>
+              <span>Paste when the URL is blocked</span>
+            </div>
+            <textarea id="jd-text" rows="9" placeholder="Paste the complete job description here..."></textarea>
+          </div>
+
+          <div class="field">
+            <label>Resume being submitted</label>
+            <label class="upload" id="upload-zone" for="resume-file">
+              <input id="resume-file" type="file" accept=".pdf,.docx,.txt,.md">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m17 8-5-5-5 5"/><path d="M12 3v12"/></svg>
+              <span id="upload-label"><strong>Choose a resume</strong><small>PDF or DOCX, up to 15 MB</small></span>
+            </label>
+          </div>
+
+          <div class="field">
+            <label for="instructions">Resume instructions</label>
+            <textarea id="instructions" rows="6" placeholder="Example: Preserve all ML experience and emphasize production data pipelines."></textarea>
+          </div>
+        </div>
+
+        <div class="cover-settings">
+          <div class="cover-heading">
+            <div>
+              <p class="eyebrow">Cover letter</p>
+              <h2>Personalize the letter</h2>
+            </div>
+            <span>Three concise paragraphs and Overleaf-ready LaTeX</span>
+          </div>
+          <div class="form-grid">
+            <div class="field">
+              <label for="company-name">Company name</label>
+              <input class="text-input" id="company-name" type="text" placeholder="Burlington Stores">
+            </div>
+            <div class="field">
+              <label for="role-name">Role title</label>
+              <input class="text-input" id="role-name" type="text" placeholder="AI Data Scientist">
+            </div>
+            <div class="field span-2">
+              <label for="cover-instructions">Cover letter instructions</label>
+              <textarea id="cover-instructions" rows="5">Use three paragraphs: what I am looking for in this role and company; why my background is a fit; and what excites me about the work and who I am as an individual. Keep the writing natural, specific, and human. Avoid em dashes and generic corporate language. Mention my familiarity with AI coding tools, that I can start immediately, and that I am willing to relocate.</textarea>
+            </div>
+          </div>
+        </div>
+
+        <div class="form-actions">
+          <p>Base resume content stays intact. New claims are never invented.</p>
+          <button class="primary" type="submit" id="generate-button">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3-1.9 5.8a2 2 0 0 1-1.3 1.3L3 12l5.8 1.9a2 2 0 0 1 1.3 1.3L12 21l1.9-5.8a2 2 0 0 1 1.3-1.3L21 12l-5.8-1.9a2 2 0 0 1-1.3-1.3Z"/></svg>
+            Generate package
+          </button>
+        </div>
+      </form>
+    </section>
+
+    <section class="results" id="results" hidden>
+      <div class="result-bar">
+        <div>
+          <p class="eyebrow">Generated package</p>
+          <h2 id="result-title">Application ready</h2>
+          <p id="result-meta"></p>
+        </div>
+        <div class="skill-list" id="skill-list"></div>
+      </div>
+
+      <div class="result-layout">
+        <nav class="tabs" id="tabs" aria-label="Generated documents"></nav>
+        <article class="preview">
+          <div class="preview-toolbar">
+            <strong id="preview-title">Tailored resume</strong>
+            <a class="download" id="active-download" href="#" download>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="M7 10l5 5 5-5"/><path d="M12 15V3"/></svg>
+              Download
+            </a>
+          </div>
+          <pre id="preview-content"></pre>
+        </article>
+        <aside class="downloads">
+          <h3>Files</h3>
+          <div id="artifact-list"></div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="empty-state" id="empty-state">
+      <div class="empty-icon">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8Z"/><path d="M14 2v6h6"/><path d="M8 13h8M8 17h5"/></svg>
+      </div>
+      <h2>Your documents will appear here</h2>
+      <p>Add a job URL or description, attach the resume you plan to send, and generate once.</p>
+    </section>
+  </main>
+
+  <div class="toast" id="toast" role="status" hidden></div>
+  <script src="/app.js"></script>
+</body>
+</html>

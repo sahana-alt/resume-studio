@@ -1,0 +1,1983 @@
+{
+  "profile": {
+    "name": "Sahana Bhaskar",
+    "headline": "Software Engineer | AI/ML, Full-Stack, iOS, Cloud",
+    "location": "California, open for relocation",
+    "email": "sahanab@vt.edu",
+    "phone": "+1 540-558-5096",
+    "links": [
+      "https://linkedin.com/in/sahana-bhaskar/",
+      "https://github.com/sahana-alt"
+    ],
+    "summary_facts": [
+      "Software engineer with about 3 years of experience building full-stack, iOS, backend, cloud, and AI-powered systems.",
+      "MS Computer Science thesis student at Virginia Tech with 4.0 GPA; BS Computer Science from BMS College of Engineering with department silver medalist recognition.",
+      "Published work includes ACM ICER 2025 research on answer-aware LLM hints and IEEE INOCON 2020 work on e-commerce demand forecasting."
+    ]
+  },
+  "source_documents": [
+    {
+      "id": "resume-ml-2026",
+      "path": "/Users/sahanabhaskar/Documents/Resumes/MachineLearning/Resume/N_Bhaskar_Sahana_ML.pdf",
+      "track": "Machine Learning / GenAI",
+      "docx_path": "/Users/sahanabhaskar/Documents/Resumes/MachineLearning/Resume/N_Bhaskar_Sahana_ML.docx"
+    },
+    {
+      "id": "resume-fullstack-2026",
+      "path": "/Users/sahanabhaskar/Documents/Resumes/SoftwareEngineering/Resume/S_B_FullStackF.pdf",
+      "track": "Full-Stack Software Engineering",
+      "docx_path": "/Users/sahanabhaskar/Documents/Resumes/SoftwareEngineering/Resume/S_B_FullStackF.docx"
+    },
+    {
+      "id": "resume-ios-2026",
+      "path": "/Users/sahanabhaskar/Documents/Resumes/iOS/Resume/Sahana_Bhaskar_iOS_F.pdf",
+      "track": "iOS Engineering",
+      "docx_path": "/Users/sahanabhaskar/Documents/Resumes/iOS/Resume/Sahana_Bhaskar_iOS_F.docx"
+    },
+    {
+      "id": "resume-cloud-storage-2026",
+      "path": "/Users/sahanabhaskar/Documents/Resumes/SoftwareEngineering/Resume/SDE_Netapp- Cloud Storage.pdf",
+      "track": "Cloud Storage / Infrastructure",
+      "docx_path": "/Users/sahanabhaskar/Documents/Resumes/SoftwareEngineering/Resume/SDE_Netapp- Cloud Storage.docx"
+    },
+    {
+      "id": "resume-cpp-linux-2026",
+      "path": "/Users/sahanabhaskar/Documents/Resumes/SoftwareEngineering/Resume/SDE_Netapp(C++,OS,Linux).pdf",
+      "track": "C++ / OS / Linux",
+      "docx_path": "/Users/sahanabhaskar/Documents/Resumes/SoftwareEngineering/Resume/SDE_Netapp(C++,OS,Linux).docx"
+    },
+    {
+      "id": "resume-java-2026",
+      "path": "/Users/sahanabhaskar/Documents/Resumes/SoftwareEngineering/Resume/S_B_FullStack_Java.pdf",
+      "track": "Java Backend / Full-Stack",
+      "docx_path": "/Users/sahanabhaskar/Documents/Resumes/SoftwareEngineering/Resume/S_B_FullStack_Java.docx"
+    },
+    {
+      "id": "resume-fde-2026",
+      "path": "/Users/sahanabhaskar/Documents/Resumes/SoftwareEngineering/Resume/FDE_Bhaskar_Sahana.pdf",
+      "track": "Founding / Full-Stack Engineer",
+      "docx_path": "/Users/sahanabhaskar/Documents/Resumes/SoftwareEngineering/Resume/FDE_Bhaskar_Sahana.docx"
+    },
+    {
+      "id": "resume-cloud-automation-2026",
+      "path": "/Users/sahanabhaskar/Documents/Resumes/SoftwareEngineering/Resume/Bhaskar_Sahana_Cloud_Automation.docx",
+      "track": "Cloud Automation / SRE"
+    }
+  ],
+  "education": [
+    {
+      "school": "Virginia Tech",
+      "degree": "Master of Science in Computer Science",
+      "details": "Thesis track; GPA 4.0/4.0",
+      "start": "2023-08",
+      "end": "2025-12"
+    },
+    {
+      "school": "BMS College of Engineering",
+      "degree": "Bachelor of Engineering in Computer and Information Science",
+      "details": "CGPA 3.99/4.0; Department Silver Medalist, 2nd rank",
+      "start": "2017-08",
+      "end": "2021-07"
+    }
+  ],
+  "publications": [
+    "Designing Answer-Aware LLM Hints to Scaffold Deeper Learning in K-12 Programming Education, ACM ICER 2025",
+    "Demand Forecasting for E-Commerce Platforms, IEEE INOCON 2020"
+  ],
+  "awards": [
+    "Outstanding Service Award, Virginia Tech, 2025",
+    "CodeFest Runner-Up, Marriott Hackathon, 2024",
+    "Tech Champion, Tata CLiQ, 2023",
+    "Department Silver Medalist, BMS College of Engineering, 2021"
+  ],
+  "certifications_training": [
+    "Generative AI with LLMs on DeepLearning.AI / Coursera by Andrew Ng",
+    "LLM Engineering: Master AI & Agents on Udemy",
+    "Google Cloud Professional - Architecting with Google Compute Engine Specialization"
+  ],
+  "skills": {
+    "languages": [
+      "Python",
+      "Java",
+      "C++",
+      "Bash",
+      "Go",
+      "Swift",
+      "Kotlin",
+      "JavaScript",
+      "TypeScript",
+      "R",
+      "HTML",
+      "CSS",
+      "Objective-C",
+      "PHP"
+    ],
+    "frameworks": [
+      "FastAPI",
+      "Flask",
+      "Spring Boot",
+      "Node.js",
+      "Express.js",
+      "React",
+      "Angular",
+      "UIKit",
+      "SwiftUI",
+      "JSP",
+      "Tomcat"
+    ],
+    "ai_ml": [
+      "GPT-4-Turbo",
+      "OpenAI API",
+      "Qwen",
+      "DeepSeek-R1",
+      "StarCoder",
+      "Hugging Face Transformers",
+      "PyTorch",
+      "TensorFlow",
+      "Scikit-Learn",
+      "RAG",
+      "Prompt Engineering",
+      "LLM-as-judge",
+      "LangChain",
+      "LangGraph",
+      "CrewAI",
+      "AutoGen",
+      "MCP",
+      "Q-learning",
+      "SARIMA",
+      "LSTM",
+      "YOLOv7",
+      "ViT",
+      "BERT"
+    ],
+    "data": [
+      "PostgreSQL",
+      "MySQL",
+      "MongoDB",
+      "MongoDB Atlas",
+      "Redis",
+      "DynamoDB",
+      "Kafka",
+      "Spark",
+      "ChromaDB",
+      "SQL",
+      "NoSQL"
+    ],
+    "cloud_devops": [
+      "GCP",
+      "Google Kubernetes Engine",
+      "AWS",
+      "Azure",
+      "Docker",
+      "Kubernetes",
+      "GitHub Actions",
+      "Bitrise",
+      "Firebase",
+      "TestFlight",
+      "CI/CD"
+    ],
+    "ios": [
+      "Swift",
+      "UIKit",
+      "SwiftUI",
+      "CoreData",
+      "AVKit",
+      "MapKit",
+      "URLSession",
+      "AutoLayout",
+      "XCTest",
+      "XCUITest",
+      "Instruments",
+      "Firebase Crashlytics",
+      "Keychain",
+      "OAuth 2.0",
+      "JWT",
+      "MVVM",
+      "VIPER",
+      "MVC",
+      "Coordinator"
+    ],
+    "systems_networking": [
+      "Linux",
+      "Unix",
+      "Operating Systems",
+      "Concurrency",
+      "Synchronization",
+      "TCP/IP",
+      "DNS",
+      "SSL/TLS",
+      "Wireshark",
+      "Cisco Packet Tracer",
+      "CWMP",
+      "TR-069",
+      "SOAP",
+      "HTTP",
+      "SNMP"
+    ],
+    "methods": [
+      "REST APIs",
+      "Microservices",
+      "API design",
+      "Testing",
+      "JUnit",
+      "Pytest",
+      "TDD",
+      "Observability",
+      "Performance Optimization",
+      "System Design",
+      "Agile",
+      "Object Oriented Programming",
+      "Product Collaboration",
+      "Analytics",
+      "IAM",
+      "Least-Privilege Access Control",
+      "Root Cause Analysis",
+      "Production Support",
+      "Deployment Stability"
+    ],
+    "product_domains": [
+      "AI education",
+      "K-12 education",
+      "E-commerce",
+      "Social commerce",
+      "Cloud infrastructure",
+      "iOS apps",
+      "Developer tools",
+      "Networking",
+      "Healthcare AI",
+      "Travel safety",
+      "Cloud automation",
+      "SRE"
+    ]
+  },
+  "experience": [
+    {
+      "company": "Virginia Tech - CodeKids",
+      "title": "Software Engineer / AI Researcher",
+      "location": "Blacksburg, VA",
+      "start": "2024-08",
+      "end": "Present",
+      "domain_context": [
+        "AI education",
+        "K-12 education",
+        "LLM applications",
+        "Cloud infrastructure"
+      ],
+      "tech_stack": [
+        "GPT-4-Turbo",
+        "FastAPI",
+        "PostgreSQL",
+        "Angular",
+        "TypeScript",
+        "Docker",
+        "Kubernetes",
+        "GKE",
+        "GCP",
+        "GitHub Actions",
+        "Q-learning"
+      ],
+      "bullets": [
+        {
+          "id": "codekids-llm-hints-001",
+          "text": "Designed and deployed an answer-aware LLM hint generation system using GPT-4-Turbo, FastAPI, and PostgreSQL with engineered prompt templates to guide K-12 student reasoning without answer leakage; published at ACM ICER 2025.",
+          "skills": [
+            "GPT-4-Turbo",
+            "FastAPI",
+            "PostgreSQL",
+            "Prompt Engineering",
+            "REST APIs",
+            "LLM applications"
+          ],
+          "domains": [
+            "AI education",
+            "K-12 education"
+          ],
+          "metrics": [
+            "Published at ACM ICER 2025"
+          ],
+          "seniority_signals": [
+            "research ownership",
+            "system design"
+          ],
+          "source_id": "resume-ml-2026"
+        },
+        {
+          "id": "codekids-eval-framework-002",
+          "text": "Built a multi-layered evaluation framework combining semantic similarity, LLM-as-judge scoring, and statistical analysis on student surveys across 105 students, achieving 98.1% content alignment and HQS of 0.749.",
+          "skills": [
+            "LLM-as-judge",
+            "semantic similarity",
+            "statistics",
+            "Python",
+            "evaluation"
+          ],
+          "domains": [
+            "AI education",
+            "K-12 education"
+          ],
+          "metrics": [
+            "105 students",
+            "98.1% content alignment",
+            "HQS 0.749"
+          ],
+          "seniority_signals": [
+            "evaluation design",
+            "research validation"
+          ],
+          "source_id": "resume-ml-2026"
+        },
+        {
+          "id": "codekids-model-selection-003",
+          "text": "Selected GPT-4-Turbo over open-source alternatives including LLaMA-2 and Mistral based on leakage analysis; validated mean hint-answer cosine similarity of 0.26 and LLM-as-judge pedagogy score of 0.958.",
+          "skills": [
+            "GPT-4-Turbo",
+            "LLaMA-2",
+            "Mistral",
+            "LLM evaluation",
+            "semantic similarity"
+          ],
+          "domains": [
+            "AI education"
+          ],
+          "metrics": [
+            "0.26 mean hint-answer cosine similarity",
+            "0.958 pedagogy score"
+          ],
+          "seniority_signals": [
+            "model selection",
+            "quality analysis"
+          ],
+          "source_id": "resume-ml-2026"
+        },
+        {
+          "id": "codekids-gke-cronjob-004",
+          "text": "Implemented a Kubernetes CronJob on a GKE cluster to automate PostgreSQL database backups, diagnosing failed volume mounts and improving reliability of cloud-hosted infrastructure.",
+          "skills": [
+            "Kubernetes",
+            "Google Kubernetes Engine",
+            "GCP",
+            "PostgreSQL",
+            "Cloud infrastructure",
+            "DevOps"
+          ],
+          "domains": [
+            "Cloud infrastructure",
+            "AI education"
+          ],
+          "metrics": [],
+          "seniority_signals": [
+            "production reliability",
+            "infrastructure ownership"
+          ],
+          "source_id": "resume-cloud-storage-2026"
+        },
+        {
+          "id": "codekids-ci-cd-005",
+          "text": "Built a GitHub Actions CI/CD pipeline to run tests on pull requests, build Docker images, and deploy validated changes to Google Kubernetes Engine, ensuring only tested code reached production.",
+          "skills": [
+            "GitHub Actions",
+            "Docker",
+            "Kubernetes",
+            "Google Kubernetes Engine",
+            "CI/CD",
+            "Testing"
+          ],
+          "domains": [
+            "Cloud infrastructure",
+            "AI education"
+          ],
+          "metrics": [],
+          "seniority_signals": [
+            "release ownership",
+            "quality engineering"
+          ],
+          "source_id": "resume-java-2026"
+        },
+        {
+          "id": "codekids-angular-fastapi-006",
+          "text": "Built student-facing UI using Angular and TypeScript, integrating FastAPI REST APIs to deliver real-time LLM hints.",
+          "skills": [
+            "Angular",
+            "TypeScript",
+            "FastAPI",
+            "REST APIs",
+            "Frontend"
+          ],
+          "domains": [
+            "AI education",
+            "Full-stack"
+          ],
+          "metrics": [],
+          "seniority_signals": [
+            "full-stack delivery"
+          ],
+          "source_id": "resume-fullstack-2026"
+        },
+        {
+          "id": "codekids-adaptive-learning-007",
+          "text": "Developed an adaptive learning system using Q-learning for personalized activity book recommendations based on student performance.",
+          "skills": [
+            "Q-learning",
+            "Machine Learning",
+            "Recommendation Systems",
+            "Python"
+          ],
+          "domains": [
+            "AI education",
+            "K-12 education"
+          ],
+          "metrics": [],
+          "seniority_signals": [
+            "ML system design"
+          ],
+          "source_id": "resume-fullstack-2026"
+        },
+        {
+          "id": "codekids-iam-008",
+          "text": "Implemented least-privilege access control using IAM roles and policies, improving system security for the cloud-hosted learning platform.",
+          "skills": [
+            "IAM",
+            "Least-Privilege Access Control",
+            "GCP",
+            "Cloud Security",
+            "Cloud infrastructure"
+          ],
+          "domains": [
+            "Cloud automation",
+            "Cloud infrastructure",
+            "AI education"
+          ],
+          "metrics": [],
+          "seniority_signals": [
+            "security ownership",
+            "cloud operations"
+          ],
+          "source_id": "resume-cloud-automation-2026"
+        },
+        {
+          "id": "codekids-human-surveys-009",
+          "text": "Designed and deployed an LLM-powered hint generation system using FastAPI and TypeScript, validated through human surveys and published at ICER 2025.",
+          "skills": [
+            "FastAPI",
+            "TypeScript",
+            "LLM applications",
+            "Human Evaluation",
+            "REST APIs"
+          ],
+          "domains": [
+            "AI education",
+            "K-12 education"
+          ],
+          "metrics": [
+            "Published at ICER 2025"
+          ],
+          "seniority_signals": [
+            "end-to-end delivery",
+            "research validation"
+          ],
+          "source_id": "resume-cloud-automation-2026"
+        }
+      ]
+    },
+    {
+      "company": "Virginia Tech",
+      "title": "Graduate Research Assistant, Machine Learning Lab",
+      "location": "Blacksburg, VA",
+      "start": "2024-05",
+      "end": "2024-08",
+      "domain_context": [
+        "Machine learning",
+        "Chemistry",
+        "Time-series regression"
+      ],
+      "tech_stack": [
+        "RDKit",
+        "Python",
+        "Regression Modeling",
+        "NIST17"
+      ],
+      "bullets": [
+        {
+          "id": "vt-ml-lab-rdkit-001",
+          "text": "Designed feature engineering and data processing pipelines using RDKit for time-series regression on the NIST17 chromatography dataset; trained a regression model achieving R2 = 0.986 for retention time prediction and chemical compound identification.",
+          "skills": [
+            "Python",
+            "RDKit",
+            "Feature Engineering",
+            "Data Processing",
+            "Regression Modeling"
+          ],
+          "domains": [
+            "Machine learning",
+            "Chemistry"
+          ],
+          "metrics": [
+            "R2 = 0.986"
+          ],
+          "seniority_signals": [
+            "research execution",
+            "modeling ownership"
+          ],
+          "source_id": "resume-ml-2026"
+        }
+      ]
+    },
+    {
+      "company": "Virginia Tech",
+      "title": "Graduate Teaching Assistant, Intro to Computer Networking",
+      "location": "Blacksburg, VA",
+      "start": "2024-08",
+      "end": "2024-12",
+      "domain_context": [
+        "Networking",
+        "Teaching"
+      ],
+      "tech_stack": [
+        "TCP/IP",
+        "DNS",
+        "Wireshark",
+        "Cisco Packet Tracer",
+        "SSL/TLS"
+      ],
+      "bullets": [
+        {
+          "id": "vt-networking-ta-001",
+          "text": "Mentored 100+ students in TCP/IP, DNS, routing, congestion control, and distributed networking concepts through hands-on debugging and network troubleshooting labs.",
+          "skills": [
+            "TCP/IP",
+            "DNS",
+            "Routing",
+            "Networking",
+            "Mentoring"
+          ],
+          "domains": [
+            "Networking",
+            "Teaching"
+          ],
+          "metrics": [
+            "100+ students"
+          ],
+          "seniority_signals": [
+            "mentorship",
+            "communication"
+          ],
+          "source_id": "resume-cloud-storage-2026"
+        },
+        {
+          "id": "vt-networking-ta-002",
+          "text": "Conducted packet-level analysis using Wireshark and Cisco Packet Tracer to diagnose latency, packet flow, protocol behavior, and SSL/TLS communication patterns across simulated distributed systems.",
+          "skills": [
+            "Wireshark",
+            "Cisco Packet Tracer",
+            "SSL/TLS",
+            "Distributed Systems",
+            "Networking"
+          ],
+          "domains": [
+            "Networking",
+            "Distributed systems"
+          ],
+          "metrics": [],
+          "seniority_signals": [
+            "debugging",
+            "systems analysis"
+          ],
+          "source_id": "resume-cloud-storage-2026"
+        }
+      ]
+    },
+    {
+      "company": "TATA CLiQ",
+      "title": "Software Engineer",
+      "location": "India",
+      "start": "2021-07",
+      "end": "2023-07",
+      "domain_context": [
+        "E-commerce",
+        "Social commerce",
+        "iOS apps",
+        "Backend",
+        "Full-stack"
+      ],
+      "tech_stack": [
+        "Swift",
+        "UIKit",
+        "SwiftUI",
+        "Spring Boot",
+        "Java",
+        "MySQL",
+        "Redis",
+        "Docker",
+        "Bitrise",
+        "XCTest",
+        "XCUITest",
+        "Firebase Crashlytics",
+        "CleverTap",
+        "Omniture",
+        "AppsFlyer"
+      ],
+      "bullets": [
+        {
+          "id": "tata-palette-ios-001",
+          "text": "Led end-to-end iOS feature development for TATA CLiQ Palette, a live social e-commerce app, using Swift, UIKit, and MVVM.",
+          "skills": [
+            "Swift",
+            "UIKit",
+            "MVVM",
+            "iOS",
+            "Product Development"
+          ],
+          "domains": [
+            "iOS apps",
+            "Social commerce",
+            "E-commerce"
+          ],
+          "metrics": [
+            "Live on the App Store"
+          ],
+          "seniority_signals": [
+            "end-to-end ownership",
+            "production delivery"
+          ],
+          "source_id": "resume-ios-2026"
+        },
+        {
+          "id": "tata-spring-apis-002",
+          "text": "Designed and developed Java Spring Boot REST APIs and microservices for product catalog, cart, and checkout systems, serving 3M+ daily requests.",
+          "skills": [
+            "Java",
+            "Spring Boot",
+            "REST APIs",
+            "Microservices",
+            "MySQL",
+            "API design"
+          ],
+          "domains": [
+            "E-commerce",
+            "Backend"
+          ],
+          "metrics": [
+            "3M+ daily requests"
+          ],
+          "seniority_signals": [
+            "backend ownership",
+            "scale"
+          ],
+          "source_id": "resume-java-2026"
+        },
+        {
+          "id": "tata-redis-performance-003",
+          "text": "Improved API performance using Redis caching, Java concurrency concepts, and efficient database access patterns, reducing response time by about 60% from 200ms to 30ms.",
+          "skills": [
+            "Redis",
+            "Java",
+            "Concurrency",
+            "Performance Optimization",
+            "Database Optimization"
+          ],
+          "domains": [
+            "E-commerce",
+            "Backend"
+          ],
+          "metrics": [
+            "60% response time reduction",
+            "200ms to 30ms"
+          ],
+          "seniority_signals": [
+            "performance optimization",
+            "scalability"
+          ],
+          "source_id": "resume-java-2026"
+        },
+        {
+          "id": "tata-pagination-004",
+          "text": "Engineered cursor-based pagination and rate limiting for the PALETTE social feed, supporting infinite scroll of 50 posts per call.",
+          "skills": [
+            "API design",
+            "Pagination",
+            "Rate Limiting",
+            "Backend",
+            "Scalability"
+          ],
+          "domains": [
+            "Social commerce",
+            "E-commerce"
+          ],
+          "metrics": [
+            "50 posts per call"
+          ],
+          "seniority_signals": [
+            "scalable feature design"
+          ],
+          "source_id": "resume-fullstack-2026"
+        },
+        {
+          "id": "tata-jwt-auth-005",
+          "text": "Built secure services using JWT authentication and token-based authorization, improving API reliability across checkout systems.",
+          "skills": [
+            "JWT",
+            "Authentication",
+            "Authorization",
+            "Security",
+            "REST APIs"
+          ],
+          "domains": [
+            "E-commerce",
+            "Backend"
+          ],
+          "metrics": [],
+          "seniority_signals": [
+            "security implementation"
+          ],
+          "source_id": "resume-java-2026"
+        },
+        {
+          "id": "tata-docker-microservices-006",
+          "text": "Containerized Spring Boot catalog and cart microservices using Docker, enabling consistent deployments across development, staging, and production environments.",
+          "skills": [
+            "Docker",
+            "Spring Boot",
+            "Microservices",
+            "CI/CD",
+            "Deployment"
+          ],
+          "domains": [
+            "Backend",
+            "Cloud infrastructure"
+          ],
+          "metrics": [],
+          "seniority_signals": [
+            "deployment ownership"
+          ],
+          "source_id": "resume-java-2026"
+        },
+        {
+          "id": "tata-tests-bitrise-007",
+          "text": "Automated XCTest/XCUITest test suites with 95%+ coverage and integrated Bitrise CI/CD with TestFlight for beta testing and releases.",
+          "skills": [
+            "XCTest",
+            "XCUITest",
+            "Bitrise",
+            "TestFlight",
+            "CI/CD",
+            "Testing"
+          ],
+          "domains": [
+            "iOS apps",
+            "Quality engineering"
+          ],
+          "metrics": [
+            "95%+ test coverage"
+          ],
+          "seniority_signals": [
+            "quality engineering",
+            "release reliability"
+          ],
+          "source_id": "resume-fullstack-2026"
+        },
+        {
+          "id": "tata-crashfree-008",
+          "text": "Raised crash-free users from 90% to 98% by systematic profiling with Instruments, Memory Profiling, and Firebase Crashlytics.",
+          "skills": [
+            "Instruments",
+            "Memory Profiling",
+            "Firebase Crashlytics",
+            "iOS Performance",
+            "Debugging"
+          ],
+          "domains": [
+            "iOS apps",
+            "E-commerce"
+          ],
+          "metrics": [
+            "90% to 98% crash-free users"
+          ],
+          "seniority_signals": [
+            "production debugging",
+            "performance ownership"
+          ],
+          "source_id": "resume-ios-2026"
+        },
+        {
+          "id": "tata-ui-issues-009",
+          "text": "Reduced user-reported UI issues by 40% by enforcing Apple HIG compliance and Dynamic Type accessibility standards in close collaboration with Product and Design.",
+          "skills": [
+            "Apple HIG",
+            "Accessibility",
+            "Dynamic Type",
+            "Product Collaboration",
+            "Design Collaboration"
+          ],
+          "domains": [
+            "iOS apps",
+            "E-commerce"
+          ],
+          "metrics": [
+            "40% reduction in user-reported UI issues"
+          ],
+          "seniority_signals": [
+            "cross-functional collaboration",
+            "user experience ownership"
+          ],
+          "source_id": "resume-ios-2026"
+        },
+        {
+          "id": "tata-sdk-010",
+          "text": "Built reusable UIKit/SwiftUI component library and standardized networking SDK, replacing Alamofire and accelerating feature development by about 2 months across multiple apps.",
+          "skills": [
+            "UIKit",
+            "SwiftUI",
+            "SDK Design",
+            "Networking",
+            "Swift"
+          ],
+          "domains": [
+            "iOS apps",
+            "Developer productivity"
+          ],
+          "metrics": [
+            "Accelerated development by about 2 months"
+          ],
+          "seniority_signals": [
+            "platform engineering",
+            "developer productivity"
+          ],
+          "source_id": "resume-ios-2026"
+        },
+        {
+          "id": "tata-analytics-011",
+          "text": "Awarded Tech Champion for analytics-driven product improvements using CleverTap, Omniture, and AppsFlyer.",
+          "skills": [
+            "CleverTap",
+            "Omniture",
+            "AppsFlyer",
+            "Analytics",
+            "Product Metrics"
+          ],
+          "domains": [
+            "E-commerce",
+            "Product analytics"
+          ],
+          "metrics": [
+            "Tech Champion award"
+          ],
+          "seniority_signals": [
+            "business impact",
+            "product thinking"
+          ],
+          "source_id": "resume-fullstack-2026"
+        },
+        {
+          "id": "tata-production-rca-012",
+          "text": "Resolved production escalations by performing root cause analysis and implementing fixes to maintain system reliability across mobile and backend workflows.",
+          "skills": [
+            "Root Cause Analysis",
+            "Production Support",
+            "Reliability",
+            "Debugging",
+            "Backend"
+          ],
+          "domains": [
+            "E-commerce",
+            "SRE",
+            "Production systems"
+          ],
+          "metrics": [],
+          "seniority_signals": [
+            "production ownership",
+            "reliability"
+          ],
+          "source_id": "resume-cloud-automation-2026"
+        },
+        {
+          "id": "tata-deployment-stability-013",
+          "text": "Worked across development, staging, and production environments to ensure smooth deployments and system stability.",
+          "skills": [
+            "Deployment Stability",
+            "CI/CD",
+            "Production Support",
+            "Release Management"
+          ],
+          "domains": [
+            "Cloud automation",
+            "E-commerce",
+            "Production systems"
+          ],
+          "metrics": [],
+          "seniority_signals": [
+            "release ownership",
+            "operational reliability"
+          ],
+          "source_id": "resume-cloud-automation-2026"
+        },
+        {
+          "id": "tata-java-demo-microservices-014",
+          "text": "Built a Java Spring Boot e-commerce demo app using MVC and microservices for user, cart, and order services with REST APIs and MySQL.",
+          "skills": [
+            "Java",
+            "Spring Boot",
+            "MVC",
+            "Microservices",
+            "REST APIs",
+            "MySQL"
+          ],
+          "domains": [
+            "E-commerce",
+            "Backend"
+          ],
+          "metrics": [],
+          "seniority_signals": [
+            "backend implementation"
+          ],
+          "source_id": "resume-cloud-automation-2026"
+        },
+        {
+          "id": "tata-ml-base-ecommerce-app-001",
+          "text": "Built and shipped a large-scale e-commerce application, contributing to end-to-end system development.",
+          "skills": [
+            "E-commerce",
+            "System Development",
+            "Product Development",
+            "Software Engineering"
+          ],
+          "domains": [
+            "E-commerce",
+            "Production systems"
+          ],
+          "metrics": [],
+          "seniority_signals": [
+            "end-to-end delivery",
+            "production ownership"
+          ],
+          "source_id": "resume-ml-2026"
+        },
+        {
+          "id": "tata-ml-base-spring-redis-002",
+          "text": "Designed and developed Spring Boot REST APIs serving 3M+ daily requests; engineered cursor-based pagination and Redis caching on catalog endpoints, cutting response time by 60% from 200ms to 30ms.",
+          "skills": [
+            "Java",
+            "Spring Boot",
+            "REST APIs",
+            "Redis",
+            "Pagination",
+            "API design",
+            "Performance Optimization"
+          ],
+          "domains": [
+            "E-commerce",
+            "Backend",
+            "Production systems"
+          ],
+          "metrics": [
+            "3M+ daily requests",
+            "60% response time reduction",
+            "200ms to 30ms"
+          ],
+          "seniority_signals": [
+            "backend ownership",
+            "scalability",
+            "performance optimization"
+          ],
+          "source_id": "resume-ml-2026"
+        },
+        {
+          "id": "tata-ml-base-docker-cicd-003",
+          "text": "Containerized microservices with Docker across dev, staging, and production; automated CI/CD with Bitrise and maintained 95%+ test coverage via XCTest/XCUITest.",
+          "skills": [
+            "Docker",
+            "Microservices",
+            "CI/CD",
+            "Bitrise",
+            "XCTest",
+            "XCUITest",
+            "Testing"
+          ],
+          "domains": [
+            "E-commerce",
+            "Cloud infrastructure",
+            "Quality engineering"
+          ],
+          "metrics": [
+            "95%+ test coverage"
+          ],
+          "seniority_signals": [
+            "deployment ownership",
+            "release reliability",
+            "quality engineering"
+          ],
+          "source_id": "resume-ml-2026"
+        },
+        {
+          "id": "tata-ml-base-analytics-004",
+          "text": "Leveraged analytics using CleverTap, Omniture, and AppsFlyer to drive data-informed improvements in engagement and retention.",
+          "skills": [
+            "CleverTap",
+            "Omniture",
+            "AppsFlyer",
+            "Analytics",
+            "Product Metrics"
+          ],
+          "domains": [
+            "E-commerce",
+            "Product analytics"
+          ],
+          "metrics": [],
+          "seniority_signals": [
+            "business impact",
+            "product thinking"
+          ],
+          "source_id": "resume-ml-2026"
+        },
+        {
+          "id": "tata-ml-base-ui-issues-005",
+          "text": "Reduced critical user-reported UI issues by 40% by collaborating with Product and Design to ensure Apple HIG compliance.",
+          "skills": [
+            "Apple HIG",
+            "Product Collaboration",
+            "Design Collaboration",
+            "Quality Engineering",
+            "iOS"
+          ],
+          "domains": [
+            "E-commerce",
+            "iOS apps"
+          ],
+          "metrics": [
+            "40% reduction in user-reported UI issues"
+          ],
+          "seniority_signals": [
+            "cross-functional collaboration",
+            "user experience ownership"
+          ],
+          "source_id": "resume-ml-2026"
+        }
+      ]
+    },
+    {
+      "company": "TATA CLiQ",
+      "title": "Software Engineer Intern",
+      "location": "India",
+      "start": "2021-02",
+      "end": "2021-06",
+      "domain_context": [
+        "E-commerce",
+        "iOS apps",
+        "Backend"
+      ],
+      "tech_stack": [
+        "Swift",
+        "SwiftUI",
+        "Java",
+        "Spring Boot",
+        "MySQL",
+        "GCD",
+        "async/await"
+      ],
+      "bullets": [
+        {
+          "id": "tata-intern-selfserve-001",
+          "text": "Reduced cost per transaction by 10.47% for TATA CLiQ Luxury with 56K+ active users by building a self-serve module.",
+          "skills": [
+            "Product Development",
+            "Backend",
+            "Automation",
+            "E-commerce"
+          ],
+          "domains": [
+            "E-commerce"
+          ],
+          "metrics": [
+            "10.47% cost per transaction reduction",
+            "56K+ active users"
+          ],
+          "seniority_signals": [
+            "business impact"
+          ],
+          "source_id": "resume-ios-2026"
+        },
+        {
+          "id": "tata-intern-sdks-002",
+          "text": "Built two in-house SDKs, a networking SDK and a UIKit/SwiftUI design system, accelerating development by 2 months.",
+          "skills": [
+            "SDK Design",
+            "UIKit",
+            "SwiftUI",
+            "Networking",
+            "Swift"
+          ],
+          "domains": [
+            "iOS apps",
+            "Developer productivity"
+          ],
+          "metrics": [
+            "Accelerated development by 2 months"
+          ],
+          "seniority_signals": [
+            "platform engineering"
+          ],
+          "source_id": "resume-fullstack-2026"
+        },
+        {
+          "id": "tata-intern-concurrency-003",
+          "text": "Improved app responsiveness and background processing using Grand Central Dispatch and async/await for efficient concurrency.",
+          "skills": [
+            "GCD",
+            "async/await",
+            "Swift Concurrency",
+            "iOS Performance"
+          ],
+          "domains": [
+            "iOS apps"
+          ],
+          "metrics": [],
+          "seniority_signals": [
+            "performance optimization"
+          ],
+          "source_id": "resume-fullstack-2026"
+        },
+        {
+          "id": "tata-intern-memory-004",
+          "text": "Resolved memory leaks and retain cycles caused by strong reference cycles in closures and delegate patterns by auditing with Instruments and applying weak self / unowned self capture lists.",
+          "skills": [
+            "Instruments",
+            "Memory Profiling",
+            "ARC",
+            "Retain Cycle Detection",
+            "Swift"
+          ],
+          "domains": [
+            "iOS apps"
+          ],
+          "metrics": [],
+          "seniority_signals": [
+            "debugging",
+            "performance optimization"
+          ],
+          "source_id": "resume-ios-2026"
+        },
+        {
+          "id": "tata-intern-ml-base-selfserve-001",
+          "text": "Built a self-serve feature for a live e-commerce platform with 56K+ users, reducing cost per transaction by 10.47%.",
+          "skills": [
+            "Product Development",
+            "Backend",
+            "Automation",
+            "E-commerce"
+          ],
+          "domains": [
+            "E-commerce",
+            "Production systems"
+          ],
+          "metrics": [
+            "56K+ users",
+            "10.47% cost per transaction reduction"
+          ],
+          "seniority_signals": [
+            "business impact",
+            "feature delivery"
+          ],
+          "source_id": "resume-ml-2026"
+        },
+        {
+          "id": "tata-intern-ml-base-spring-mysql-002",
+          "text": "Developed backend APIs using Java Spring Boot and MySQL, supporting scalable system integration.",
+          "skills": [
+            "Java",
+            "Spring Boot",
+            "MySQL",
+            "REST APIs",
+            "Backend"
+          ],
+          "domains": [
+            "E-commerce",
+            "Backend"
+          ],
+          "metrics": [],
+          "seniority_signals": [
+            "backend implementation",
+            "system integration"
+          ],
+          "source_id": "resume-ml-2026"
+        }
+      ]
+    },
+    {
+      "company": "Samsung India",
+      "title": "Software Engineer and Research Intern",
+      "location": "India",
+      "start": "2020-02",
+      "end": "2020-10",
+      "domain_context": [
+        "Networking",
+        "Device management",
+        "Distributed systems"
+      ],
+      "tech_stack": [
+        "Python",
+        "SOAP",
+        "HTTP",
+        "CWMP",
+        "TR-069"
+      ],
+      "bullets": [
+        {
+          "id": "samsung-cwmp-001",
+          "text": "Implemented a Python-based CWMP (TR-069) device management workflow enabling an Auto Configuration Server to remotely monitor, evaluate, and update Customer Premises Equipment configurations over SOAP/HTTP.",
+          "skills": [
+            "Python",
+            "CWMP",
+            "TR-069",
+            "SOAP",
+            "HTTP",
+            "Networking"
+          ],
+          "domains": [
+            "Networking",
+            "Device management"
+          ],
+          "metrics": [],
+          "seniority_signals": [
+            "protocol implementation"
+          ],
+          "source_id": "resume-cloud-storage-2026"
+        },
+        {
+          "id": "samsung-distributed-debugging-002",
+          "text": "Debugged device communication and configuration workflows across distributed networked systems, improving reliability of remote device provisioning and lifecycle management.",
+          "skills": [
+            "Distributed Systems",
+            "Networking",
+            "Debugging",
+            "Reliability"
+          ],
+          "domains": [
+            "Networking",
+            "Device management"
+          ],
+          "metrics": [],
+          "seniority_signals": [
+            "systems debugging",
+            "reliability"
+          ],
+          "source_id": "resume-cloud-storage-2026"
+        },
+        {
+          "id": "samsung-ml-base-cwmp-001",
+          "text": "Implemented a CWMP (TR-069) device management workflow using Python and SOAP/HTTP, enabling an Auto Configuration Server to remotely evaluate and update Customer Premises Equipment configurations.",
+          "skills": [
+            "Python",
+            "CWMP",
+            "TR-069",
+            "SOAP",
+            "HTTP",
+            "Networking",
+            "Device Management"
+          ],
+          "domains": [
+            "Networking",
+            "Cloud infrastructure",
+            "Distributed systems"
+          ],
+          "metrics": [],
+          "seniority_signals": [
+            "research implementation",
+            "systems integration"
+          ],
+          "source_id": "resume-ml-2026"
+        }
+      ]
+    },
+    {
+      "company": "CIIRC, IISc-affiliated incubation cell",
+      "title": "Machine Learning Intern",
+      "location": "India",
+      "start": "2019-02",
+      "end": "2019-06",
+      "domain_context": [
+        "Machine learning",
+        "E-commerce",
+        "Inventory planning"
+      ],
+      "tech_stack": [
+        "SARIMA",
+        "LSTM",
+        "Python"
+      ],
+      "bullets": [
+        {
+          "id": "ciirc-demand-forecasting-001",
+          "text": "Developed a predictive demand forecasting tool using SARIMA and LSTM models with RMSE 1.24 for e-commerce inventory planning, reducing stockouts and overproduction; published results at IEEE INOCON 2020.",
+          "skills": [
+            "SARIMA",
+            "LSTM",
+            "Python",
+            "Forecasting",
+            "Machine Learning"
+          ],
+          "domains": [
+            "Machine learning",
+            "E-commerce",
+            "Inventory planning"
+          ],
+          "metrics": [
+            "RMSE 1.24",
+            "Published at IEEE INOCON 2020"
+          ],
+          "seniority_signals": [
+            "research publication",
+            "modeling"
+          ],
+          "source_id": "resume-ml-2026"
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Autonomous Multi-Agent System for Trading Insights",
+      "link": "",
+      "start": "2025-08",
+      "end": "Present",
+      "domain_context": [
+        "Agentic AI",
+        "Finance",
+        "Multi-agent systems"
+      ],
+      "tech_stack": [
+        "CrewAI",
+        "LangGraph",
+        "AutoGen",
+        "MCP",
+        "Financial APIs"
+      ],
+      "bullets": [
+        {
+          "id": "proj-agent-trading-001",
+          "text": "Built a multi-agent orchestration system for financial analysis with autonomous task execution, contextual reasoning, and dynamic workflow coordination across agents using real-time financial APIs.",
+          "skills": [
+            "CrewAI",
+            "LangGraph",
+            "AutoGen",
+            "MCP",
+            "Multi-Agent Orchestration",
+            "API Integration"
+          ],
+          "domains": [
+            "Agentic AI",
+            "Finance"
+          ],
+          "metrics": [],
+          "seniority_signals": [
+            "system architecture",
+            "agentic workflow design"
+          ],
+          "source_id": "resume-ml-2026"
+        },
+        {
+          "id": "proj-agent-trading-002",
+          "text": "Designed agentic execution pipelines with tool-calling workflows, state-aware context handling, asynchronous task orchestration, and multi-agent routing.",
+          "skills": [
+            "Tool Calling",
+            "Asynchronous Orchestration",
+            "Multi-Agent Routing",
+            "State Management"
+          ],
+          "domains": [
+            "Agentic AI"
+          ],
+          "metrics": [],
+          "seniority_signals": [
+            "system design"
+          ],
+          "source_id": "resume-ml-2026"
+        }
+      ]
+    },
+    {
+      "name": "Query Optimization and Semantic Parsing Service",
+      "link": "",
+      "start": "2025-02",
+      "end": "2025-05",
+      "domain_context": [
+        "Text-to-SQL",
+        "Semantic parsing",
+        "LLMs"
+      ],
+      "tech_stack": [
+        "PyTorch",
+        "Qwen-Instruct",
+        "Spider 2.0 Lite",
+        "DeepSeek-R1",
+        "StarCoder",
+        "Vanna.AI",
+        "ChromaDB"
+      ],
+      "bullets": [
+        {
+          "id": "proj-text-to-sql-001",
+          "text": "Built a 3-model hybrid Text-to-SQL pipeline using Qwen-Instruct for SQL generation, StarCoder 1B for syntax refinement, and DeepSeek-R1 for reasoning optimization, benchmarked across Spider, Spider 2.0 Lite, GeoQuery, and CoSQL datasets.",
+          "skills": [
+            "Text-to-SQL",
+            "Qwen",
+            "StarCoder",
+            "DeepSeek-R1",
+            "PyTorch",
+            "Benchmarking"
+          ],
+          "domains": [
+            "LLMs",
+            "Semantic parsing"
+          ],
+          "metrics": [],
+          "seniority_signals": [
+            "model pipeline design",
+            "evaluation"
+          ],
+          "source_id": "resume-ml-2026"
+        },
+        {
+          "id": "proj-text-to-sql-002",
+          "text": "Pipeline outperformed all single-model baselines, achieving JPS 0.77 on Spider and 0.86 on GeoQuery; conducted ablation studies per model and evaluated a RAG approach using Vanna.AI with ChromaDB vector store.",
+          "skills": [
+            "RAG",
+            "ChromaDB",
+            "Vanna.AI",
+            "Ablation Studies",
+            "Evaluation"
+          ],
+          "domains": [
+            "LLMs",
+            "Semantic parsing"
+          ],
+          "metrics": [
+            "JPS 0.77 on Spider",
+            "JPS 0.86 on GeoQuery"
+          ],
+          "seniority_signals": [
+            "experimental evaluation",
+            "performance benchmarking"
+          ],
+          "source_id": "resume-ml-2026"
+        }
+      ]
+    },
+    {
+      "name": "Ask Hokie",
+      "link": "",
+      "start": "2024-09",
+      "end": "2024-09",
+      "domain_context": [
+        "Campus assistant",
+        "RAG",
+        "Full-stack AI"
+      ],
+      "tech_stack": [
+        "React",
+        "Node.js",
+        "Express.js",
+        "MongoDB Atlas",
+        "OpenAI",
+        "PropelAuth",
+        "GPT-4-Turbo"
+      ],
+      "bullets": [
+        {
+          "id": "proj-ask-hokie-001",
+          "text": "Built a full-stack AI campus chatbot using the MERN stack with PropelAuth authentication and a RAG pipeline using MongoDB Atlas vector search and GPT-4-Turbo for context-aware responses to student queries.",
+          "skills": [
+            "React",
+            "Node.js",
+            "Express.js",
+            "MongoDB Atlas",
+            "OpenAI API",
+            "RAG",
+            "PropelAuth"
+          ],
+          "domains": [
+            "Full-stack AI",
+            "Campus assistant"
+          ],
+          "metrics": [
+            "Runner-up recognition at VT Hacks"
+          ],
+          "seniority_signals": [
+            "full-stack delivery",
+            "rapid prototyping"
+          ],
+          "source_id": "resume-fullstack-2026"
+        },
+        {
+          "id": "proj-ask-hokie-002",
+          "text": "Designed backend retrieval pipelines and semantic chunking for low-latency, context-aware query responses.",
+          "skills": [
+            "RAG",
+            "Semantic Chunking",
+            "Backend",
+            "Retrieval Pipelines",
+            "API design"
+          ],
+          "domains": [
+            "Full-stack AI"
+          ],
+          "metrics": [],
+          "seniority_signals": [
+            "backend design"
+          ],
+          "source_id": "resume-ml-2026"
+        }
+      ]
+    },
+    {
+      "name": "Medical Image Segmentation with Text-Enhanced Vision Transformers",
+      "link": "",
+      "start": "2023-08",
+      "end": "2023-12",
+      "domain_context": [
+        "Medical imaging",
+        "Computer vision",
+        "Healthcare AI"
+      ],
+      "tech_stack": [
+        "PyTorch",
+        "ViT",
+        "BERT",
+        "BioBERT",
+        "ClinicalBERT"
+      ],
+      "bullets": [
+        {
+          "id": "proj-med-seg-001",
+          "text": "Built a text-enhanced CNN-ViT hybrid for medical image segmentation using language cross-attention to align radiological text with image features for pixel-wise guidance.",
+          "skills": [
+            "PyTorch",
+            "ViT",
+            "CNN",
+            "BERT",
+            "Cross-Attention",
+            "Computer Vision"
+          ],
+          "domains": [
+            "Medical imaging",
+            "Healthcare AI"
+          ],
+          "metrics": [],
+          "seniority_signals": [
+            "model architecture"
+          ],
+          "source_id": "resume-ml-2026"
+        },
+        {
+          "id": "proj-med-seg-002",
+          "text": "Evaluated BioBERT, ClinicalBERT, and BERT-base with custom Weighted Dice plus Focal Loss; ClinicalBERT achieved 82.25% Dice and 73.19% IoU on QaTa-COV19, outperforming U-Net, LAVT, and ConVIRT.",
+          "skills": [
+            "BioBERT",
+            "ClinicalBERT",
+            "BERT",
+            "Model Evaluation",
+            "Computer Vision"
+          ],
+          "domains": [
+            "Medical imaging",
+            "Healthcare AI"
+          ],
+          "metrics": [
+            "82.25% Dice",
+            "73.19% IoU"
+          ],
+          "seniority_signals": [
+            "benchmarking",
+            "evaluation"
+          ],
+          "source_id": "resume-ml-2026"
+        }
+      ]
+    },
+    {
+      "name": "Segmentation of Electronic Thesis and Dissertation",
+      "link": "",
+      "start": "2023-08",
+      "end": "2023-12",
+      "domain_context": [
+        "ETL",
+        "Computer vision",
+        "Large-scale data processing"
+      ],
+      "tech_stack": [
+        "YOLOv7",
+        "Kafka",
+        "Object Detection",
+        "ETL"
+      ],
+      "bullets": [
+        {
+          "id": "proj-etd-001",
+          "text": "Integrated YOLOv7 into an ETL pipeline to extract metadata, figures, chapters, and table of contents from about 334K Virginia Tech electronic theses, enabling parallel large-scale topic modeling with a Kafka producer-consumer service.",
+          "skills": [
+            "YOLOv7",
+            "Kafka",
+            "ETL",
+            "Object Detection",
+            "Data Pipelines"
+          ],
+          "domains": [
+            "Large-scale data processing",
+            "Computer vision"
+          ],
+          "metrics": [
+            "About 334K electronic theses"
+          ],
+          "seniority_signals": [
+            "large-scale pipeline design"
+          ],
+          "source_id": "resume-fullstack-2026"
+        }
+      ]
+    },
+    {
+      "name": "Faculty Appraisal Portal",
+      "link": "",
+      "start": "2021-02",
+      "end": "2021-04",
+      "domain_context": [
+        "Education administration",
+        "Full-stack web"
+      ],
+      "tech_stack": [
+        "Java",
+        "JSP",
+        "MySQL",
+        "Tomcat",
+        "React"
+      ],
+      "bullets": [
+        {
+          "id": "proj-faculty-portal-001",
+          "text": "Developed a Java-based web application using JSP, MySQL, and Apache Tomcat for 250+ faculty, applying object-oriented programming principles and relational database design to digitize evaluation workflows and reduce processing time by 20%.",
+          "skills": [
+            "Java",
+            "JSP",
+            "MySQL",
+            "Tomcat",
+            "Object Oriented Programming",
+            "Relational Database Design"
+          ],
+          "domains": [
+            "Full-stack web",
+            "Education administration"
+          ],
+          "metrics": [
+            "250+ faculty",
+            "20% processing time reduction"
+          ],
+          "seniority_signals": [
+            "end-to-end delivery"
+          ],
+          "source_id": "resume-java-2026"
+        }
+      ]
+    },
+    {
+      "name": "Wikipedia Data Extractor",
+      "link": "",
+      "start": "2024-02",
+      "end": "2024-03",
+      "domain_context": [
+        "Linux tools",
+        "Command-line automation"
+      ],
+      "tech_stack": [
+        "C++",
+        "Linux",
+        "curl",
+        "grep",
+        "awk",
+        "sed"
+      ],
+      "bullets": [
+        {
+          "id": "proj-wikipedia-extractor-001",
+          "text": "Developed a Linux command-line automation tool using C++, curl, grep, awk, and sed to extract, parse, and process structured Wikipedia content through shell-based workflows.",
+          "skills": [
+            "C++",
+            "Linux",
+            "Bash",
+            "curl",
+            "grep",
+            "awk",
+            "sed"
+          ],
+          "domains": [
+            "Linux tools",
+            "Command-line automation"
+          ],
+          "metrics": [],
+          "seniority_signals": [
+            "systems programming"
+          ],
+          "source_id": "resume-cpp-linux-2026"
+        },
+        {
+          "id": "proj-wikipedia-extractor-002",
+          "text": "Integrated C++ with Unix shell utilities for automated text transformation, exception handling, and export into CSV/TXT formats for downstream analysis.",
+          "skills": [
+            "C++",
+            "Unix",
+            "Exception Handling",
+            "Shell Scripting",
+            "CSV"
+          ],
+          "domains": [
+            "Linux tools",
+            "Data processing"
+          ],
+          "metrics": [],
+          "seniority_signals": [
+            "systems integration"
+          ],
+          "source_id": "resume-cpp-linux-2026"
+        }
+      ]
+    },
+    {
+      "name": "Music Player - Advanced CLI Music Application",
+      "link": "",
+      "start": "2024-01",
+      "end": "2024-02",
+      "domain_context": [
+        "Linux tools",
+        "CLI applications"
+      ],
+      "tech_stack": [
+        "C++",
+        "Shell Scripting",
+        "Unix"
+      ],
+      "bullets": [
+        {
+          "id": "proj-cli-music-001",
+          "text": "Developed a Unix-based CLI music application in C++ using filesystem APIs, file I/O, directory traversal, and modular command parsing to automate music library organization.",
+          "skills": [
+            "C++",
+            "Unix",
+            "Filesystem APIs",
+            "File I/O",
+            "Command Parsing"
+          ],
+          "domains": [
+            "Linux tools",
+            "CLI applications"
+          ],
+          "metrics": [],
+          "seniority_signals": [
+            "systems programming"
+          ],
+          "source_id": "resume-cpp-linux-2026"
+        },
+        {
+          "id": "proj-cli-music-002",
+          "text": "Implemented metadata-based song categorization with structured memory management and exception handling to ensure reliable execution in Unix environments.",
+          "skills": [
+            "C++",
+            "Memory Management",
+            "Exception Handling",
+            "Unix"
+          ],
+          "domains": [
+            "Linux tools",
+            "CLI applications"
+          ],
+          "metrics": [],
+          "seniority_signals": [
+            "reliability",
+            "systems programming"
+          ],
+          "source_id": "resume-cpp-linux-2026"
+        }
+      ]
+    },
+    {
+      "name": "StayWise",
+      "link": "",
+      "start": "2026-01",
+      "end": "2026-03",
+      "domain_context": [
+        "Travel safety",
+        "iOS apps",
+        "AI applications"
+      ],
+      "tech_stack": [
+        "SwiftUI",
+        "CoreData",
+        "URLSession",
+        "OpenAI API",
+        "MapKit"
+      ],
+      "bullets": [
+        {
+          "id": "proj-staywise-001",
+          "text": "Built an AI-powered iOS travel companion for solo travelers and women's safety, using OpenAI API to generate location-aware safety summaries for unfamiliar neighborhoods with MapKit for area exploration.",
+          "skills": [
+            "SwiftUI",
+            "OpenAI API",
+            "MapKit",
+            "iOS",
+            "Product Development"
+          ],
+          "domains": [
+            "Travel safety",
+            "iOS apps",
+            "AI applications"
+          ],
+          "metrics": [],
+          "seniority_signals": [
+            "end-to-end product development"
+          ],
+          "source_id": "resume-ios-2026"
+        },
+        {
+          "id": "proj-staywise-002",
+          "text": "Implemented asynchronous networking using URLSession and Swift concurrency with CoreData offline caching to deliver low-latency safety insights without connectivity.",
+          "skills": [
+            "URLSession",
+            "Swift Concurrency",
+            "CoreData",
+            "Offline Caching",
+            "iOS Performance"
+          ],
+          "domains": [
+            "iOS apps",
+            "Travel safety"
+          ],
+          "metrics": [],
+          "seniority_signals": [
+            "mobile architecture",
+            "offline-first design"
+          ],
+          "source_id": "resume-ios-2026"
+        }
+      ]
+    },
+    {
+      "name": "Marriott Buddy",
+      "link": "",
+      "start": "2024-10",
+      "end": "2024-10",
+      "domain_context": [
+        "Travel networking",
+        "iOS apps",
+        "Hackathon"
+      ],
+      "tech_stack": [
+        "Swift",
+        "UIKit",
+        "Firebase",
+        "UITableView",
+        "AutoLayout"
+      ],
+      "bullets": [
+        {
+          "id": "proj-marriott-buddy-001",
+          "text": "Designed a travel-networking app applying agglomerative clustering to group Marriott guests by shared interests, earning runner-up in product innovation and UX design.",
+          "skills": [
+            "Swift",
+            "Clustering",
+            "Product Design",
+            "UIKit"
+          ],
+          "domains": [
+            "Travel networking",
+            "iOS apps"
+          ],
+          "metrics": [
+            "Runner-up recognition"
+          ],
+          "seniority_signals": [
+            "product innovation",
+            "rapid prototyping"
+          ],
+          "source_id": "resume-ios-2026"
+        },
+        {
+          "id": "proj-marriott-buddy-002",
+          "text": "Built real-time guest discovery with Firestore live listeners, Firebase Auth, async/await networking, and a responsive AutoLayout interface using custom UITableView cells.",
+          "skills": [
+            "Firestore",
+            "Firebase Auth",
+            "async/await",
+            "AutoLayout",
+            "UITableView",
+            "UIKit"
+          ],
+          "domains": [
+            "iOS apps",
+            "Travel networking"
+          ],
+          "metrics": [],
+          "seniority_signals": [
+            "mobile implementation"
+          ],
+          "source_id": "resume-ios-2026"
+        }
+      ]
+    },
+    {
+      "name": "Flo Music Player",
+      "link": "",
+      "start": "2025-05",
+      "end": "2025-06",
+      "domain_context": [
+        "iOS apps",
+        "Media applications"
+      ],
+      "tech_stack": [
+        "Swift",
+        "UIKit",
+        "URLSession",
+        "LRC Parsing",
+        "REST API"
+      ],
+      "bullets": [
+        {
+          "id": "proj-flo-music-001",
+          "text": "Forked the open-source Flo iOS music player and extended it with lyrics support, self-hosting .lrc timestamped lyrics files on a private server and exposing a custom REST endpoint.",
+          "skills": [
+            "Swift",
+            "UIKit",
+            "REST APIs",
+            "Self-hosting",
+            "iOS"
+          ],
+          "domains": [
+            "iOS apps",
+            "Media applications"
+          ],
+          "metrics": [],
+          "seniority_signals": [
+            "open-source extension"
+          ],
+          "source_id": "resume-ios-2026"
+        },
+        {
+          "id": "proj-flo-music-002",
+          "text": "Implemented the lyrics fetch layer using URLSession, parsing .lrc timestamp format line-by-line and syncing each lyric to playback position for a karaoke-style display.",
+          "skills": [
+            "URLSession",
+            "Parsing",
+            "Swift",
+            "UIKit",
+            "Media Playback"
+          ],
+          "domains": [
+            "iOS apps",
+            "Media applications"
+          ],
+          "metrics": [],
+          "seniority_signals": [
+            "feature implementation"
+          ],
+          "source_id": "resume-ios-2026"
+        }
+      ]
+    }
+  ]
+}
