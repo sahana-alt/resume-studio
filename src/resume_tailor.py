@@ -1244,6 +1244,7 @@ def archive_role_package(out_dir: Path, role_type: str, slug: str) -> Path:
         "cover_letter.txt",
         "cover_letter.tex",
         "cover_letter.docx",
+        "cover_letter.pdf",
         "recruiter_dm.md",
         "application_brief.md",
         "skill_gap_project_plan.md",
@@ -1325,6 +1326,37 @@ def generate_application_package(
         render_cover_latex(cover_letter, profile),
         encoding="utf-8",
     )
+    try:
+        from export_cover_letter_pdf import build_cover_letter_pdf
+        build_cover_letter_pdf(
+            cover_letter,
+            {
+                "name": str(profile.get("name", "")),
+                "email": str(profile.get("email", "")),
+                "phone": str(profile.get("phone", "")),
+            },
+            out_dir / "cover_letter.pdf",
+        )
+    except Exception:
+        if BUNDLED_PYTHON.exists():
+            try:
+                subprocess.run(
+                    [
+                        str(BUNDLED_PYTHON),
+                        str(Path(__file__).with_name("export_cover_letter_pdf.py")),
+                        str(out_dir / "cover_letter.txt"),
+                        str(out_dir / "cover_letter.pdf"),
+                        str(profile.get("name", "")),
+                        str(profile.get("email", "")),
+                        str(profile.get("phone", "")),
+                    ],
+                    check=True,
+                    capture_output=True,
+                    text=True,
+                    timeout=30,
+                )
+            except (OSError, subprocess.SubprocessError):
+                pass
     try:
         from export_resume import build_cover_letter_docx
         build_cover_letter_docx(

@@ -12,7 +12,7 @@ const activeDownload = document.querySelector("#active-download");
 
 const views = [
   ["resume", "Tailored resume", "tailored_resume.docx"],
-  ["cover", "Cover letter", "cover_letter.txt"],
+  ["cover", "Cover letter", "cover_letter.pdf"],
   ["coverTex", "Cover letter LaTeX", "cover_letter.tex"],
   ["dm", "Recruiter DM", "recruiter_dm.md"],
   ["brief", "Application brief", "application_brief.md"],
